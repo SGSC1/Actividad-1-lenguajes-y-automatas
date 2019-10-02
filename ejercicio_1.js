@@ -54,7 +54,3 @@ let newMensaje9 = mensaje9.replace(/\b[0-9]{5}\b/g, "");
 console.log(newMensaje9); 
 
 
-let mensaje10 = " ama// palala";
-let newMensaje10 = mensaje10.replace( /\/[\*|][\S\s]+?[\*]\/|\/[\/].*/g, "");
-console.log(newMensaje10); 
- 
